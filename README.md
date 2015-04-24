@@ -24,7 +24,7 @@ In your HTML file (i.e. `index.html`), include the Javascript files in the follo
 
 In the above, `example.js` is where you put the code for your module.
 
-Then, in the `<body>` tag, you setup your module using the custom `<data-...>` tags as below:
+Then, in the `<body>` tag, you setup your module using the custom `<data-...>` attributes below:
 
     ...
     <body data-name="salty" data-tools="pnacl newlib glibc" data-configs="Debug Release" data-path="{tc}/{config}">
