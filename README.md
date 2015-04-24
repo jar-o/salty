@@ -30,7 +30,7 @@ Then, in the `<body>` tag, you setup your module using the custom `<data-...>` a
     <body data-name="salty" data-tools="pnacl newlib glibc" data-configs="Debug Release" data-path="{tc}/{config}">
     ...
 
-(The only tag you're likely to change above is `<data-name>`. These attributes are used by `common.js`, btw.)
+(The only attribute you're likely to change above is `<data-name>`. These attributes are used by `common.js`, btw.)
 
 In `example.js` you do something like the following
 
