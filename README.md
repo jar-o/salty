@@ -103,7 +103,7 @@ Basically, it looks something like the following:
             
     ...
 
-The `SaltyReply` object is just a `pp::VarDictionary` with and additional method, `setId()`. It obtains the callback identifier generated in `salty.js` and ensures that when you `PostMessage(reply)` the correct JavaScript callback will be called.
+The `SaltyReply` object is just a `pp::VarDictionary` with an additional method, `setId()`. It obtains the callback identifier generated in `salty.js` and ensures that when you `PostMessage(reply)` the correct JavaScript callback will be called.
 
 ## Running the code
 
