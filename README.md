@@ -6,7 +6,7 @@ This is a sample app that can be used as a template. It demonstrates a simplifie
 
 ## What it is
 
-Basically, the way to communicate between your C++ code and Javascript in the browser is via the [Messaging System](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/c/ppb_messaging.h?revision=92312&view=markup). The old ways are [deprecated](https://code.google.com/p/ppapi/wiki/InterfacingWithJavaScript).
+Basically, the way to communicate between your C++ code and Javascript in the browser is via the [Messaging System](https://developer.chrome.com/native-client/devguide/coding/message-system). The old ways are [deprecated](https://code.google.com/p/ppapi/wiki/InterfacingWithJavaScript).
 
 This repo is a small sample app based on the `pepper_41/getting_started/part2` source, which is a "hello world" of the Messaging System. I've added a Javascript library `salty.js` and a C++ header `salty.h` that simplify the mechanism for using the `PostMessage()` interface.
 
